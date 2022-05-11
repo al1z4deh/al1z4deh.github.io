@@ -1,7 +1,7 @@
 ---
-title: Gallert - Writeup
+title: Gallery - Writeup
 author: Elman Alizadeh
-date: 2021-04-18 14:10:00 +0800
+date: 2022-04-18 14:10:00 +0800
 categories: [ctf, TryHackMe]
 tags: [tryhackme, gallery]
 ---
