@@ -14,7 +14,23 @@ Today we will take a look at Vulnhub: Nagini. My goal in sharing this writeup is
 
 Command: sudo nmap -p- -sV -sC -oN nmap/open — open 192.168.0.110
 
-![Desktop View]({{ "/assets/img/vuln-harry-nagini/2.png" | relative_url }})
+```console
+Nmap scan report for 192.168.0.110
+Host is up (0.038s latency).
+Not shown: 64927 closed tcp ports (reset), 606 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 48:df:48:37:25:94:c4:74:6b:2c:62:73:bf:b4:9f:a9 (RSA)
+|   256 1e:34:18:17:5e:17:95:8f:70:2f:80:a6:d5:b4:17:3e (ECDSA)
+|_  256 3e:79:5f:55:55:3b:12:75:96:b4:3e:e3:83:7a:54:94 (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.38 (Debian)
+MAC Address: 3C:A0:67:C5:35:33 (Liteon Technology)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+```
 
 ## Gobuster
 
