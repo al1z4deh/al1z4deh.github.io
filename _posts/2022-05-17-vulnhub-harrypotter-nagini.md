@@ -8,7 +8,7 @@ tags: [vulnhub, harrypotter]
 
 Today we will take a look at Vulnhub: Nagini. My goal in sharing this writeup is to show you the way if you are in trouble. Please try to understand each step and take notes.
 
-![Desktop View]({{ "/assets/img/vuln-harry-nagini/1.jpg" | relative_url }})
+![Desktop View]({{ "/assets/img/vuln-harry-nagini/1.jpeg" | relative_url }})
 
 ## Network scan
 
