@@ -216,7 +216,8 @@ select\040*\040from\040support
 show\040tables;
 select\040*\040from\040support;
 insert\040into\040support\040(tom,\040xx11yy22!);
-quittom@funbox2:~$ sudo -l
+quit
+tom@funbox2:~$ sudo -l
 
 User tom may run the following commands on funbox2:
     (ALL : ALL) ALL
